@@ -1,6 +1,6 @@
 {
   "name": "梦想视频嗅探下载器",
-  "description": "视频嗅探下载器，又一款梦想系列扩展",
+  "description": "视频嗅探下载器，又一款梦想系列扩展。",
   "version": "1.0",
   "manifest_version": 2,
   "background": {
