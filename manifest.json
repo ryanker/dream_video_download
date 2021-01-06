@@ -1,0 +1,26 @@
+{
+  "name": "梦想视频嗅探下载器",
+  "description": "视频嗅探下载器，又一款梦想系列扩展",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "icons": {
+    "128": "128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "clipboardRead",
+    "\u003Call_urls>"
+  ],
+  "devtools_page": "devtools.html",
+  "homepage_url": "https://github.com/ryanker/dream_video_download"
+}
